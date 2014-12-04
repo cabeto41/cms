@@ -1,7 +1,5 @@
 <?php
 
-git clone https://carlosquinonez@bitbucket.org/francisco-naranjo/monssa.git
-
 class AuthController extends BaseController {
 
     public function showLogin(){
