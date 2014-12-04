@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Admin CMS-Caboose Lake</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="http://localhost/assets/css/admin.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div class="container">
+    
+<h1>Sections</h1>
+
+<p>
+    <a href="http://localhost/CPanel/admin/sections/create">Add a new section</a>
+</p>
+
+<p>
+    There are 10 sections, showing page 1 of 1
+</p>
+
+    <form method="GET" action="http://localhost/CPanel/admin/sections" accept-charset="UTF-8">
+
+    <label for="type">Type</label>
+    <select id="type" name="type"><option value="" selected="selected">All</option><option value="page">Page</option><option value="blog">Blog</option><option value="gallery">Gallery</option></select>
+
+    <label for="published">State</label>
+    <select id="published" name="published"><option value="" selected="selected">All</option><option value="0">Draft</option><option value="1">Published</option></select>
+
+    <label for="menu">Show in Menu</label>
+    <select id="menu" name="menu"><option value="" selected="selected">All</option><option value="0">No</option><option value="1">Yes</option></select>
+
+    <label for="name">Name</label>
+    <input name="search" type="text">
+
+    <button type="submit" class="btn btn-primary">Filter sections</button>
+
+</form>
+    
+        <p>
+            There are 10 sections, showing page 1 of 1
+        </p>
+
+        <table class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Published</th>
+        <th>Menu</th>
+        <th>Slug URL</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td class="name">Sunt id.</td>
+        <td>page</td>
+        <td>Draft</td>
+        <td>Don't show in menu</td>
+        <td>sunt-id</td>
+        <td>
+            <a href = "http://localhost/CPanel/admin/sections/13">Show</a>
+            <a href = "http://localhost/CPanel/admin/sections/13/edit">Edit</a>
+        </td>
+    </tr>
+        <tr>
+        <td class="name">Possimus distinctio voluptas.</td>
+        <td>gallery</td>
+        <td>Published</td>
+        <td>Don't show in menu</td>
+        <td>possimus-distinctio-voluptas</td>
+        <td>
+            <a href = "http://localhost/CPanel/admin/sections/14">Show</a>
+            <a href = "http://localhost/CPanel/admin/sections/14/edit">Edit</a>
+        </td>
+    </tr>
+        <tr>
+        <td class="name">Alias excepturi aut.</td>
+        <td>page</td>
+        <td>Draft</td>
+        <td>Show in menu</td>
+        <td>alias-excepturi-aut</td>
+        <td>
+            <a href = "http://localhost/CPanel/admin/sections/15">Show</a>
+            <a href = "http://localhost/CPanel/admin/sections/15/edit">Edit</a>
+        </td>
+    </tr>
+        <tr>
+        <td class="name">Voluptatem voluptatem quia.</td>
+        <td>page</td>
+        <td>Published</td>
+        <td>Don't show in menu</td>
+        <td>voluptatem-voluptatem-quia</td>
+        <td>
+            <a href = "http://localhost/CPanel/admin/sections/16">Show</a>
+            <a href = "http://localhost/CPanel/admin/sections/16/edit">Edit</a>
+        </td>
+    </tr>
+        <tr>
+        <td class="name">Soluta reiciendis.</td>
+        <td>gallery</td>
+        <td>Published</td>
+        <td>Show in menu</td>
+        <td>soluta-reiciendis</td>
+        <td>
+            <a href = "http://localhost/CPanel/admin/sections/17">Show</a>
+            <a href = "http://localhost/CPanel/admin/sections/17/edit">Edit</a>
+        </td>
+    </tr>
+        <tr>
+        <td class="name">Ratione ut et.</td>
+        <td>gallery</td>
+        <td>Published</td>
+        <td>Don't show in menu</td>
+        <td>ratione-ut-et</td>
+        <td>
+            <a href = "http://localhost/CPanel/admin/sections/18">Show</a>
+            <a href = "http://localhost/CPanel/admin/sections/18/edit">Edit</a>
+        </td>
+    </tr>
+        <tr>
+        <td class="name">Nulla ab ab.</td>
+        <td>gallery</td>
+        <td>Draft</td>
+        <td>Show in menu</td>
+        <td>nulla-ab-ab</td>
+        <td>
+            <a href = "http://localhost/CPanel/admin/sections/19">Show</a>
+            <a href = "http://localhost/CPanel/admin/sections/19/edit">Edit</a>
+        </td>
+    </tr>
+        <tr>
+        <td class="name">Commodi veniam.</td>
+        <td>gallery</td>
+        <td>Published</td>
+        <td>Show in menu</td>
+        <td>commodi-veniam</td>
+        <td>
+            <a href = "http://localhost/CPanel/admin/sections/20">Show</a>
+            <a href = "http://localhost/CPanel/admin/sections/20/edit">Edit</a>
+        </td>
+    </tr>
+        <tr>
+        <td class="name">Aliquam quae.</td>
+        <td>blog</td>
+        <td>Published</td>
+        <td>Show in menu</td>
+        <td>aliquam-quae</td>
+        <td>
+            <a href = "http://localhost/CPanel/admin/sections/21">Show</a>
+            <a href = "http://localhost/CPanel/admin/sections/21/edit">Edit</a>
+        </td>
+    </tr>
+        <tr>
+        <td class="name">In exercitationem.</td>
+        <td>page</td>
+        <td>Draft</td>
+        <td>Show in menu</td>
+        <td>in-exercitationem</td>
+        <td>
+            <a href = "http://localhost/CPanel/admin/sections/22">Show</a>
+            <a href = "http://localhost/CPanel/admin/sections/22/edit">Edit</a>
+        </td>
+    </tr>
+        </tbody>
+</table>
+        
+
+    
+</div><!-- /.container -->
+
+
+
+
+
+
+<div class="container">
+   <hr/>
+   <p >Este es el footer.</p>
+</div><!-- /.container -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
